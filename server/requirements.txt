@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+aiosqlite
+fastapi-users[sqlalchemy]
+pydantic
+python-jose[cryptography]
+passlib
+starlette

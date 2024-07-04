@@ -1,0 +1,26 @@
+[
+  {
+    "active": true,
+    "email": "admin@mail.ru",
+    "first_name": "Админ",
+    "patronymic": "Админ",
+    "role": 1,
+    "password": "admin",
+    "username": "admin",
+    "status": "Преподаватель",
+    "last_name": "Админ",
+    "telephone": "991"
+  },
+  {
+    "active": true,
+    "email": "user@mail.ru",
+    "first_name": "Юзер",
+    "patronymic": "Юзер",
+    "role": 4,
+    "password": "user",
+    "username": "user",
+    "status": "Студент",
+    "last_name": "Юзер",
+    "telephone": "991"
+  }
+]

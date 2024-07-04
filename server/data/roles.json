@@ -1,0 +1,44 @@
+[
+  {
+    "admin": true,
+    "trainer": true,
+    "name": "Админ",
+    "course": true,
+    "profile": true
+  },
+  {
+    "admin": false,
+    "trainer": true,
+    "name": "Пользователь тренажеров",
+    "course": false,
+    "profile": true
+  },
+  {
+    "admin": false,
+    "trainer": false,
+    "name": "Пользователь курсов",
+    "course": true,
+    "profile": true
+  },
+  {
+    "admin": false,
+    "trainer": true,
+    "name": "Пользователь тренажеров и курсов",
+    "course": true,
+    "profile": true
+  },
+  {
+    "admin": false,
+    "trainer": false,
+    "name": "Пользователь",
+    "course": false,
+    "profile": true
+  },
+  {
+    "admin": false,
+    "trainer": false,
+    "name": "Неактивированный пользователь",
+    "course": false,
+    "profile": false
+  }
+]

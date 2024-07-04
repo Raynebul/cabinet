@@ -1,0 +1,17 @@
+
+version: "3.4"
+
+services:
+  server:
+    build: 
+      context: server/
+      network: host
+    restart: always
+    ports:
+      - 8000:8000
+  client:
+    build: client/
+    #network_mode: host
+    restart: always
+    ports:
+      - 5000:5000
